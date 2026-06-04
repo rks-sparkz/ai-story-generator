@@ -4,7 +4,6 @@ age = int(input("Age: "))
 salary = float(input("Salary: "))         
 experience = int(input("Experience: "))   
 
-
 # 2. Calculating Yearly Salary
 yearly_salary = salary * 12
 
