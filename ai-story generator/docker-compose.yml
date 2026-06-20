@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  story-generator:
+    build: .
+    container_name: ai_story_generator_container
+    env_file:
+      - .env
+    volumes:
+      - ./app:/code/app
